@@ -20,6 +20,8 @@
 	
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="start.css">
+
+	<script src="jquery-2.1.3.min.js"></script>
 	
 	<!-- Google Analytics For whatisbitusd.com -->
 	<script>
@@ -32,6 +34,23 @@
 	  ga('send', 'pageview');
 	
 	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$.ajax({
+			  dataType: "json",
+			  url: "http://api.bitsharesblocks.com/v1/assets",
+			  data: "",
+			  success: function( data ) {
+			  	alert("snor");
+			    if ( console && console.log ) {
+			      console.log( "Sample of data:", data.slice( 0, 100 ) );
+			    }
+			  }
+			});
+		});
+		
+	</script>
 </head>
 
 <body>
@@ -42,8 +61,8 @@
 	<section class="container" style="height: 100vh;">
 		<div class="row">
 			<div class="col-md-5 col-sm-6 col-md-push-1" style="margin-top: 250px">
-				<h1><b>BitGold</b> is like gold</h1>
-				<p>BitGold has the same value of gold, it is pegged to the value of real gold. That means 1 BitGold today will be worth 1 real BitGold tomorrow. Did you know that gold has preformed as the strongest storage of value for the last 100 year?</p>
+				<h1>What is <b style="color: #D6C05E">BitGold</b>?</h1>
+				<p>BitGold is a cryptocurrency, pegged to the value of real gold. That means 1 BitGold today will be worth 1 real BitGold tomorrow. Did you know that gold has preformed as the strongest storage of value for the last 100 years?</p>
 			</div>
 		
 			<div class="col-md-5 col-sm-6 col-md-push-1 " style="margin-top: 180px">
@@ -53,28 +72,30 @@
 	</section>
 </div>
 
-
-<section class="container" style="height: 100vh">
-	<div class="row">
-		<div class="col-md-7 col-sm-6 col-md-push-1 ">
-			<h1><b>Trusted</b> &amp; <b>Anonymous</b> as a Swiss bank</h1>
-			<p>BitGold is backed by a 164% collateral. Your bank have an average collateral of 1.3%. You BitGold is backed by 100s of people and companies without the need of a trusted parties.</p>
-		</div>
-	
-	</div>
-</section>
-
-<section class="container" style="height: 100vh">
-	<div class="row">
-		<div class="col-md-7 col-sm-6 col-md-push-1 ">
-			<h1><b>Fluid</b> &amp; <b>Secured</b> on the blockchain</h1>
-			<p>BitGold lives on the blockchain, this means its assessable from every where around the world. Move your funds in seconds from 1 person to an other. Exchange it within seconds into an other asset or currency. Do you belief in cryptography?</p>
-		</div>
-	
+<div style="background: url('scale.jpg');" class="white-text">
+	<section class="container" style="height: 100vh">
+		<div class="row" style="margin-top: 500px">
+			<div class="col-md-7 col-sm-6 col-md-push-1 ">
+				<h1><b>Trusted</b> &amp; <b>Anonymous</b> as a Swiss bank</h1>
+				<p>BitGold is backed by a 164% collateral. Your bank have an average collateral of 1.3%. You BitGold is backed by 100s of people and companies without the need of a trusted parties.</p>
+			</div>
 		
-	</div>
-</section>
+		</div>
+	</section>
+</div>
 
+<div style="background: url('chain.jpg');" class="white-text">
+	<section class="container" style="height: 100vh;">
+		<div class="row">
+			<div class="col-md-7 col-sm-6 col-md-push-1 " style=" margin-top: 40%">
+				<h1><b>Flexible</b> &amp; <b>Secure</b> on the blockchain</h1>
+				<p>BitGold lives on the blockchain, this means its assessable from every where around the world. Move your funds in seconds from 1 person to an other. Exchange it within seconds into an other asset or currency. Do you belief in cryptography?</p>
+			</div>
+		
+			
+		</div>
+	</section>
+</div>
 <section class="container" style="height: 100vh">
 	<div class="row">
 		<div class="col-md-6 col-sm-6 col-md-push-1 ">
