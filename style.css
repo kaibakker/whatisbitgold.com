@@ -10,7 +10,8 @@ body {
 }
 h1 {
 	font-size: 35px;
-	font-weight: 400;
+	font-weight: 500;
+	color: #4A4A4A;
 }
 
 .white-text h1, .white-text p {
