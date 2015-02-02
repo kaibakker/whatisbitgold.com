@@ -1,4 +1,4 @@
-# Goal of WhatIsBitGold.com
+# Goal of [WhatisBitGold.com](http://www.whatisbitgold.com/)
 
 - Explain what BitGold is
 - Get people interested in BitShares
