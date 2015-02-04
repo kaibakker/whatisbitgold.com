@@ -9,3 +9,5 @@
 - Fork it
 - Tweak it
 - Push it
+
+- edit the white paper on [here](https://www.overleaf.com/2183812zwsypr#/5572930/)
